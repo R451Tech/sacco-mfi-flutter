@@ -1,0 +1,62 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.metals/
+.vscode/
+
+# IntelliJ
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# Flutter/Dart/Pub
+**/doc/api/
+.dart_tool/
+.packages
+.pub/
+build/
+*.freezed.dart
+*.g.dart
+*.gen.dart
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+# Android
+android/app/build.gradle
+android/local.properties
+android/key.properties
+
+# iOS
+ios/Podfile
+ios/Podfile.lock
+ios/Pods/
+ios/.symlinks/
+
+# Web
+web/build/
+
+# macOS
+macos/Podfile
+macos/Podfile.lock
+macos/Pods/
+
+# Linux
+linux/flutter/ephemeral
+
+# Windows
+windows/flutter/ephemeral
